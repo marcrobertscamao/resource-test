@@ -1,0 +1,21 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "installer/resource1",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Installer\\Resource1\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Installer.Resource1",
+            "installer-resource-folders": [
+                "/Installer/"
+            ]
+        }
+    }
+}
